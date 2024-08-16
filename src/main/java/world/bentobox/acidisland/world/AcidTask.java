@@ -39,6 +39,7 @@ public class AcidTask {
         i.add(EntityType.DROWNED);
         i.add(EntityType.GUARDIAN);
         i.add(EntityType.ELDER_GUARDIAN);
+        i.add(EntityType.FROG);
         Enums.getIfPresent(EntityType.class, "AXOLOTL").toJavaUtil().ifPresent(i::add);
         IMMUNE = Collections.unmodifiableList(i);
     }
